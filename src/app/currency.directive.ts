@@ -43,7 +43,6 @@ constructor(private elementRef:ElementRef, private formatcurrencypipe:CurrencyPi
 
         // Check for number
         if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
-            console.log('ensure number');
             e.preventDefault();
         }
     }
